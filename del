@@ -1,0 +1,85 @@
+<html>
+	<head>
+	        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Volunteer Login</title>
+		<style>
+		</style>
+		
+	<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	</head>	
+	</head>
+	
+	<style>
+	body
+			{
+				background-color:#E6E6FA;
+			}
+	</style>		
+	
+	<body>
+		<div class="container left">
+		<h1>Cybernetics Re-Solution Co.</h1>
+		<h2>Delete Existing Account</h2>
+		<section>
+			<div class="well">
+				<div class="container text-center">
+		<div class="col-lg-8">
+						<form name="loginForm" form action="" class="form-horizontal">
+							<div class="form-group">
+								<label for="user-name" class="col-lg-2 control-label">Username</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="user-name" placeholder="Enter your username">
+								</div>
+							</div> <!.. End form group ..>
+							
+							<div class="form-group">
+								<label for="password" class="col-lg-2 control-label">Password</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="user-name" placeholder="Enter your password">
+								</div>
+							</div> <!.. End form group ..>
+							
+							<div class="form-group">
+								<label for="password" class="col-lg-2 control-label">Confirm Password</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="user-name" placeholder="Re-enter your password">
+								</div>
+							</div> <!.. End form group ..>
+							
+							<input type="checkbox">  I confirm to delete
+							<br><br>
+							
+							<div class="form-group">
+								<div class="col-lg-10 col-lg-offset-1">
+									<button type="submit" class="btn btn-danger">Delete Account</button>
+									<button type="reset" class="btn btn-warning" value="Reset">Reset</button>
+								
+								</div>
+							</div>
+							</div>
+						</form>
+		</div>
+		</div>
+		</section>
+		</div>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"aviral95","width":550,"height":"auto","sid":"Chitika Default","fluidH":true};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+</script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+
+	</body>
+</html>

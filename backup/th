@@ -1,0 +1,95 @@
+<html>
+	<head>
+	        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tips & Hacks</title>
+		
+	<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	</head>	
+	
+	<style>
+		
+		body
+		{
+			background-color:#E6E6FA;
+			padding-top:0px;
+		}
+		
+		</style>
+	
+	
+	<body>
+		
+			<div class="container">
+			<section>
+			<font face="garamond" size="4">
+				<div class="page-header" id="tips">
+					<u><h1><b><i>Tips & Hacks</b></i></h1></u>
+				</div> <!.. End Page Header..>
+				
+				<div class="row">
+					<div class="col-lg-9">
+						<h3><b>1. How can you share mobile's Wi-Fi internet to your Desktop?</b></h3>
+						<p align="left">It can be done by enabling usb tethering option<br>
+												  1. Go to Settings.<br>
+												  2. Then select more from Wireless & Network sections.<br>
+												  3. Then go to Tethering & portable hotspot.<br>
+												  4. Connect your mobile to your Desktop through USB cable.<br>
+												  5. And switch on the USB tethering option.<br>
+					</div>
+					
+					<div class="col-lg-3">
+						<img src="" class="img-responsive" alt="image" border="0" height="161" hspace="5" width="242">
+					</div>
+				</div><!.. End row ..>
+					
+					
+				<div class="row">
+					<div class="col-lg-9">
+						<h3><b>2. Some of the apps are not moving to my SD card</b></h3>
+						<p align="left">1. Root your phone.<br>
+(Warning:-Rooting will void your phone policy depending on your phone company's term and condition.<br>
+This method of rooting will work on most of cases<br>
+A: Download and install Kingo Android Root.<br>
+B.Tap Settings, About Phone, Developer Options, and then tick USB debugging." Then tap OK to approve the setting change.<br>
+C.Run Android Root on your PC, then connect your phone via its USB sync cable.<br>
+D.Your device screen may show an "Allow USB debugging?" pop-up. Tick "Always allow from this computer," then tap OK.<br>
+E.Click Root.)<br></div>
+					
+					<div class="col-lg-3">
+						<img src="" class="img-responsive" alt="image" border="0" height="0" hspace="5" width="242" style="PADDING-TOP: 40px">
+					</div>
+				</div><!.. End row ..>	
+				
+	
+				
+			</font>
+			</section>
+		</div> <!.. End container>
+		
+		
+		
+		
+		
+		
+		
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"aviral95","width":468,"height":90,"sid":"Chitika Default"};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+</script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+
+	</body>
+</html>

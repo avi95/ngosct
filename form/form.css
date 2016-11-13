@@ -1,0 +1,53 @@
+body {
+	background-image: url("");
+	margin-bottom: 20px;
+}
+
+.rcorners1 {
+    border-radius: 15px 50px 30px;
+    background: #4db6ac;
+    padding: 20px; 
+    width: 600px;
+    height: 950px; 
+    margin-left: 380px;
+}
+
+.pointing.right.icon {
+	font-size : 50px;
+}
+
+.captionForm {
+	font-size: 40px;
+	margin-left: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.ui.button {
+	margin-left: 235px;
+	width: 90px;
+	height: 50px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.field {
+	font-size: 15px;
+}
+
+.space {
+	padding: 10px 0px 15px;
+}
+
+.checkboxDescription {
+	font-size: small;
+	padding-right: 50px;
+}
+.radioDescription {
+	font-size: small;
+}
+

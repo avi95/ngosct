@@ -1,0 +1,172 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Door Step Service</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<script src = form.js></script>
+  	<link rel="stylesheet" href="form.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/form.min.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Cybernetics Resolution</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>
+</nav>
+<div class = "rcorners1">
+	<i class="pointing right icon "></i>
+	<font class = "captionForm">Fill the following details:- </font>
+	<form class="ui form">
+	  <div class="field">
+	    <label>Name</label>
+	    <input type="text" name="name" placeholder="Your Full Name">
+	  </div>
+	  
+	  <div class="field">
+	    <label>Contact Number</label>
+	    <input type="number" name="contact-number" placeholder="Contact number">
+	</div>
+	  
+	  <div class="field">
+	    <label>Street Address</label>
+	    <textarea rows="2"></textarea>
+  	 </div>
+  	 <div class="field">
+	     <select id="city" name="city" class="form-control">
+   
+   
+   <option value="None">--Select City--</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Ghaziabad">Ghaziabad</option>
+    <option value="Noida">Noida</option>
+    <option value="Gurgaon">Gurgaon</option>
+	  <option value="Faridabad">Faridabad</option>
+	    <option value="Gautam Budh Nagar">Gautam Budh Nagar</option>
+   
+</select>
+
+
+  	</div>
+  	<div class="field">
+	    
+		<script>
+$(document).ready(function () {
+    $("#city").change(function () {
+        var val = $(this).val();
+		
+		
+        if (val == "Delhi") {
+            $("#area").html("<option value='Laxmi Nagar'>Laxmi Nagar</option><option value='Mayur Vihar Phase II'>Mayur Vihar Phase II</option>");
+        } 
+		
+		else if (val == "Ghaziabad") {
+            $("#area").html("<option value='Vasundhara'>Vasundhara</option><option value='test2'>item2: test 2</option>");
+        }
+		
+		else if (val == "Noida") {
+            $("#area").html("<option value='test'>item3: test 1</option><option value='test2'>item3: test 2</option>");
+        }
+		
+		else if (val == "Gurgaon") {
+            $("#area").html("<option value='test'>item3: test 1</option><option value='test2'>item3: test 2</option>");
+        }
+		
+		else if (val == "Faridabad") {
+            $("#area").html("<option value='test'>item3: test 1</option><option value='test2'>item3: test 2</option>");
+        }
+		
+		
+    });
+});
+</script>
+		
+		 <select name="area" id="area" class="form-control">
+    <option value="None">--Select Area--</option>
+    </select>
+
+
+  	</div>
+  	
+	
+  	<div class="ui form">
+	  <div class="field">
+	    <label>Specify Problem(Optional)</label>
+	    <textarea></textarea>
+	  </div>
+    </div>
+	<br>
+  	<form>
+  		<label class="field"> Service Schedule </label>
+  		<div class="radio">
+		  <label class="radioDescription">
+		    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+		    9 am - 12 am
+		  </label>
+		</div>
+		<div class="radio">
+		  <label class="radioDescription">
+		    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+		    2 pm - 4 pm
+		  </label>
+		</div>
+		<div class="radio">
+		  <label class="radioDescription">
+		    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+		    4 pm - 8 pm
+		  </label>
+		</div>
+  	</form>
+  	<form>
+  		<div class="checkbox field space">
+		    <label>
+		      <input type="checkbox"> I agree to terms and conditions
+		    </label>
+		</div>
+	</form>
+	<form>
+		<button class="ui button" type="submit">Submit</button>
+	</form>
+	</form>
+</div>
+
+
+<!--<?php
+if(isset($_POST["submit"])){
+$servername = "localhost";
+$username = "mydata1995";
+$password = "@qNGbnI{+lh*";
+$dbname = "myloli";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "INSERT INTO CS_DOORSTEP (name, phone, city, area, street, problem)
+VALUES ('".$_POST["name"]."','".$_POST["phone"]."','".$_POST["city"]."','".$_POST["area"]."','".$_POST["street"]."','".$_POST["problem"]."')";
+
+if ($conn->query($sql) === TRUE) {
+echo "<script type= 'text/javascript'>alert('New record created successfully');</script>";
+} else {
+echo "<script type= 'text/javascript'>alert('Error: " . $sql . "<br>" . $conn->error."');</script>";
+}
+
+$conn->close();
+}
+?>-->
+</body>
+</html>
